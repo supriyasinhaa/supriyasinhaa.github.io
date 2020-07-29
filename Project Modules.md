@@ -33,12 +33,10 @@ This module contains all the information about the authenticated user. User with
 
 > ## EMPLOYER
 
-<br>
 
 ![employer](img/Capture1.jpg)
 
 > ## JOB SEEKER
 
-<br>
 
 ![job seeker](img/Capture2.jpg)
