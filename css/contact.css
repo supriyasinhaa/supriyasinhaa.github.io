@@ -1,0 +1,81 @@
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 667px;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.card {
+    border: white;
+}
+
+.textHeading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    /* height: 667px;
+    width: 408px; */
+}
+
+.map-style {
+    width: 100%;
+    height: 430px;
+}
+
+.contact {
+    left: 0%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2379d4;
+    border-color: #007bff;
+    border-radius: 23px;
+    width: 130px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #65a2e4;
+    border-color: #007bff;
+    border-radius: 23px;
+    width: 130px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #14641b;
+    border-color: #007bff;
+    border-radius: 23px;
+    width: 130px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 420px;
+        width: 100%;
+    }
+    .map-style {
+        width: 100%;
+        height: 350px;
+        /* padding-left: 10%; */
+        margin-top: 10px;
+    }
+    .carousel-img {
+        height: 250px;
+    }
+}
+
+
+/* .homeButton{
+    margin-left: 80%;
+} */

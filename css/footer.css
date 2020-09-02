@@ -1,0 +1,167 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+  }
+  
+.navv {
+    background-color: black;
+}
+
+.footer {
+    width: 100%;
+    background-image: url("../images/bul.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 0.9;
+    display: block;
+}
+
+.inner-footer {
+    width: 95%;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.footer-card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.footer-card>hr {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+h1 {
+    padding: 10px 0;
+    font-size: 25px;
+    color: rgb(7, 153, 197);
+    text-transform: uppercase;
+}
+
+.footer-items p {
+    color: rgb(112, 206, 159);
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+h3 {
+    color: white;
+}
+
+h2 {
+    color: rgb(248, 239, 239);
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.border {
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+}
+
+ul {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+ul a:hover {
+    color: #ff9800;
+}
+
+ul li {
+    margin: 10px 0;
+    height: 25px;
+}
+
+li i {
+    margin-right: 20px;
+}
+
+.social-media {
+    width: 100%;
+    text-align: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media i {
+    /* height: 15px;
+  width: 15px; */
+    margin: 20px 5px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+    border: 1px solid grey;
+    transition: 0.3s;
+}
+
+.social-media i:hover {
+    background: rgb(17, 0, 255);
+}
+
+.footer-bottom {
+    padding: 10px;
+    background: #357897;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: black;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1085px) {
+    .footer-items {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-items {
+        width: 100%;
+    }
+}

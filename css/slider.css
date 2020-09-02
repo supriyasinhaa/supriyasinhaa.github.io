@@ -1,0 +1,9 @@
+/* 
+.glide__slide img{
+  width: 100%;
+} */
+
+
+.glide__slides{
+  overflow: visible;
+}

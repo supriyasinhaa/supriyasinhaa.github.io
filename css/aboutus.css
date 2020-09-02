@@ -1,0 +1,106 @@
+.textHeading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card:hover {
+    background-color: aliceblue;
+}
+
+.card-text {
+    color: grey;
+}
+
+.card-logo {
+    align-items: center;
+    margin-left: 43%;
+}
+
+.leadership {
+    word-wrap: break-word;
+    color: gray;
+}
+
+@media (min-width: 1481px) {
+    .imageStyle {
+        height: 600px;
+        width: 500px;
+        box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+        margin-left: 20%;
+    }
+    /* .card {
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    } */
+    .content-card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 15%;
+    }
+    .text-style {
+        word-wrap: break-word;
+        padding-right: 5%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .carousel-img {
+        height: 250px;
+    }
+    .card-img-top {
+        height: 250px;
+    }
+    .imageStyle {
+        height: 400px;
+        width: 300px;
+        box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+        margin-left: 10%;
+    }
+    .card-deck {
+        padding: 5%;
+        margin-right: 0;
+    }
+    .container-fluid h1 {
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .description {
+        margin-top: 7%;
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1480px) {
+    .carousel-img {
+        height: 300px;
+    }
+    .imageStyle {
+        height: 400px;
+        width: 300px;
+        box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.5);
+        margin-left: 20%;
+    }
+    .card-deck {
+        padding: 5%;
+        margin-right: 0;
+    }
+    .container-fluid h1 {
+        text-align: center;
+    }
+    /* section {
+        margin-top: 5%;
+        padding: 3%;
+    } */
+}
